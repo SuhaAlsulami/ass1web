@@ -1,0 +1,114 @@
+@media screen and (max-width: 1000px) {
+
+  }
+
+ body {
+    background-image: url(background.d.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+ }
+main main{
+    background-color: black;
+}
+
+main img{
+    width:100%;
+}
+
+
+
+main {
+  text-align: center;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.INFO_ME {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.INFO_ME h1 {
+  font-size: 36px;
+  color: deeppink;
+}
+
+.INFO_ME p {
+  font-size: 18px;
+}
+
+header, footer {
+    background-color: #FFB6C1;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+  }
+  
+  header h1, footer h1 {
+    font-size: 24px;
+    color: deeppink;
+    margin: 0;
+  }
+  
+  nav {
+    padding: 10px;
+  }
+  
+  nav a {
+    background-color: #FFB6C1;
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  
+  nav a:hover {
+    background-color: rgb(214, 163, 206);
+  }
+  
+  .active {
+    background-color: rgb(214, 163, 206);
+  }
+.ContactMe{
+    float: left;
+    margin-right: 20px;
+    color: aliceblue;
+}
+.PROJECT {
+    background-color: #f9f9f9;
+    border: 2px dotted #bb8dc2;
+    text-align: center;
+    padding: 4px;
+    SIZE: 12px;
+    border: 2px dotted #bb8dc2;
+    grid-row: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center; 
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+
+
